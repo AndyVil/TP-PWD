@@ -10,7 +10,7 @@ class TP1_Control1 {//Nombre de archivos y clases es el mismo
 //Esto solo hace el calculo y se deriva nuevamente a action.php
 
     public function Ver_Informacion($datos){
-        $numero = $datos['Form_eje1'];
+        $numero = $datos['numero'];
         if ($numero > 0) {
             $respuesta = "El numero " . $numero . " es positivo";
         } elseif ($numero == 0) {

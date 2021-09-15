@@ -23,5 +23,5 @@ require_once("../Structure/header.php");
 </div>
 
 <?php
-require_once("../Strcuture/footer.php");
+require_once("../Structure/footer.php");
 ?>

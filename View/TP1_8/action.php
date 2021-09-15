@@ -22,15 +22,4 @@ require_once("../Structure/header.php");
 
 <?php
 require_once("../Structure/footer.php");
-//Notese la separacion de bloques de codigo en base a cada accion, o sea, por ejemplo. Linea 13 y 14 son lineas
-//que funcionan juntas para dar la respues del la linea 15, entonces las junto pero las sepado con
-//tabulaciones (Enter) de los otros bloques que tienen otra funcion.
-//A su vez idento cada bloque en base a cada comentario, debajo de este , para que los comentarios se puedan contraer, y separar
-//el codigo tambien en comentarios.
-//EJEMPLO
-/** //Objeto
- *     $ejemplo = new ejemplo();
- *     $returnEjem = $ejemplo->metodo();
- *   echo $returnEjem;   
-
 ?>
