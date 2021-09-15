@@ -1,0 +1,36 @@
+<?php
+require_once("../Estructura/cabecera.php");
+?>
+
+<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
+    <?php
+    //La accion lo que hace es llamar al objeto que va 
+    //a procesar el ejercicio que estas haiendo
+    //El controlador es el que se encarga de los objetos y la parte logica.
+    $datos = data_submited(); //Del archivo funciones
+
+    //Objeto para ver informacion del formulario    
+        $objeto = new Control_eje8();
+        $respuesta = $objeto->valorEntrada($datos);
+    echo $respuesta;
+
+
+    echo "<br><br><a href='http://localhost/pwd_proyectos/TP1/Vista/Ejercicio_8/index.php'>
+            Volver a la pagina anterior</a>"; //NO puede haber echos en las clases
+    ?>
+</div>
+
+<?php
+require_once("../Estructura/pie.php");
+//Notese la separacion de bloques de codigo en base a cada accion, o sea, por ejemplo. Linea 13 y 14 son lineas
+//que funcionan juntas para dar la respues del la linea 15, entonces las junto pero las sepado con
+//tabulaciones (Enter) de los otros bloques que tienen otra funcion.
+//A su vez idento cada bloque en base a cada comentario, debajo de este , para que los comentarios se puedan contraer, y separar
+//el codigo tambien en comentarios.
+//EJEMPLO
+/** //Objeto
+ *     $ejemplo = new ejemplo();
+ *     $returnEjem = $ejemplo->metodo();
+ *   echo $returnEjem;   
+
+?>
