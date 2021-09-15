@@ -30,8 +30,8 @@ function data_submited() {
 spl_autoload_register(function ($clase) {
 	echo "Se cargo la clase:  ".$clase." <br><br>" ;
 	$directorys = array(
-		$GLOBALS['ROOT'].'Modelo/',
-		$GLOBALS['ROOT'].'Control/',
+		$GLOBALS['ROOT'].'Model/',
+		$GLOBALS['ROOT'].'Controller/',
 	);
     //print_r($directorys) ;
 	foreach($directorys as $directory){

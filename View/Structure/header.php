@@ -15,7 +15,7 @@
     <!-- Es la cabecera. Abre la pagina, el ejercicio es el cuerpo, el pie cierra -->
 
     <?php
-    require_once("../../configuracion.php");
+    require_once("../../config.php");
     ?>
 
     <div style="height: 80px; width: 100%; border: 2px solid red; border-radius: 5px;">
@@ -23,7 +23,7 @@
     </div>
 
     <?php
-    require_once("lateral.php");
+    require_once("side.php");
     ?>
 
     <!-- 

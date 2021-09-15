@@ -3,7 +3,7 @@
  * Objeto / Clase Control
  * //Control ejercicio 1 es por la carpeta control, y el ejercicio 1 tp 1
  */
-class Control_eje5{ //Nombre de archivos y clases es el mismo
+class TP1_Control5{ //Nombre de archivos y clases es el mismo
 //No necesitamos constructores ni atributos? Los metodos de las clases predefinidas?
 //Por que se utilzia un objeto y no funciones?
 

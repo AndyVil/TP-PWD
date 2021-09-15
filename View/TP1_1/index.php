@@ -1,6 +1,6 @@
-<title><?= "Ejercicio_1" ?></title>
 <?php
-require_once("../Estructura/cabecera.php");
+echo "<title><?= 'Ejercicio_1' ?></title>";
+require_once("../Structure/header.php");
 ?>
 
 <div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
@@ -9,9 +9,9 @@ require_once("../Estructura/cabecera.php");
     <form action="" method="GET" id="Ejer1" class="Ejer1" name="Ejer1">
         <label for="Ejer1">Inserte un numero</label>
         <br>
-        <input type="text" id="Form_eje1" class="Form_eje1" name="Form_eje1" placeholder="Inserte un numero">
+        <input type="text" id="numero" class="numero" name="numero" placeholder="Inserte un numero">
         <!-- <button type="submit" id="btn-form1" name="btn-form1">Enviar</button> -->
-        <input type="submit" id="btn-form1" name="btn-form1" value="Enviar">
+        <input type="submit" id="btn-form" name="btn-form" value="Enviar">
     </form>
 
 
@@ -26,8 +26,8 @@ require_once("../Estructura/cabecera.php");
 
 </div>
 
-<script src="main.js"></script>
+<script src="../JS/TP1_1main.js"></script>
 
 <?php
-require_once("../Estructura/pie.php");
+require_once("../Structure/footer.php");
 ?>

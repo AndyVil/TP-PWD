@@ -1,5 +1,5 @@
 <?php
-require_once("../Estructura/cabecera.php");
+require_once("../Structure/header.php");
 ?>
 
 <div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
@@ -10,18 +10,18 @@ require_once("../Estructura/cabecera.php");
     $datos = data_submited(); //Del archivo funciones
 
     //Objeto para ver informacion del formulario    
-    $objeto = new Control_eje7();
+    $objeto = new TP1_Control7();
     $respuesta = $objeto->Cuenta($datos);
     echo $respuesta;
 
 
-    echo "<br><br><a href='http://localhost/pwd_proyectos/TP1/Vista/Ejercicio_7/index.php'>
+    echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP1_7/index.php'>
             Volver a la pagina anterior</a>"; //NO puede haber echos en las clases
     ?>
 </div>
 
 <?php
-require_once("../Estructura/pie.php");
+require_once("../Structure/footer.php");
 //Notese la separacion de bloques de codigo en base a cada accion, o sea, por ejemplo. Linea 13 y 14 son lineas
 //que funcionan juntas para dar la respues del la linea 15, entonces las junto pero las sepado con
 //tabulaciones (Enter) de los otros bloques que tienen otra funcion.

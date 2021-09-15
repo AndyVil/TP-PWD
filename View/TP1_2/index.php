@@ -1,12 +1,12 @@
-<title><?= "Ejercicio_2" ?></title>
 <?php
-require_once("../Estructura/cabecera.php");
+echo "<title><?= 'Ejercicio_2' ?></title>";
+require_once("../Structure/header.php");
 ?>
 
 <div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
     <h1> Este es el cuerpo </h1>
 
-    <form action='' method='GET' name='Form_eje2' id='Form_eje2'>
+    <form action='' method='GET' name='Ejer2' id='Ejer2'>
         <p>Formulario de horarios de clase</p>
         <input class='dias' name='lunes' type='number' id='id_lunes' placeholder='Lunes entrada' />
         <input class='dias' name='lunes2' type='number' id='id_lunes2' placeholder='Lunes salida' />
@@ -29,14 +29,14 @@ require_once("../Estructura/cabecera.php");
         <input class='dias' name='domingo' type='number' id='id_domingo' placeholder='Domingo entrada' />
         <input class='dias' name='domingo2' type='number' id='id_domingo2' placeholder='Domingo salida' />
 
-        <input type='submit' value='Enviar' id="btn-form2" name="btn-form2">
+        <input type='submit' value='Enviar' id="btn-form" name="btn-form">
 
     </form>
 
 </div>
 
-<script src="main.js"></script>
+<script src="../JS/TP1_2main.js"></script>
 
 <?php
-require_once("../Estructura/pie.php");
+require_once("../Structure/footer.php");
 ?>

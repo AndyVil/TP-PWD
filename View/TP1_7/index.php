@@ -1,6 +1,6 @@
 <?php
 echo "<title>Ejercicio_7</title>";
-require_once("../Estructura/cabecera.php");
+require_once("../Structure/header.php");
 ?>
 
 <div id="contenido" style="height: 500px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
@@ -27,8 +27,8 @@ require_once("../Estructura/cabecera.php");
 
 </div>
 
-<script src="main.js"></script>
+<script src="../JS/TP1_7main.js"></script>
 
 <?php
-require_once("../Estructura/pie.php");
+require_once("../Structure/footer.php");
 ?>

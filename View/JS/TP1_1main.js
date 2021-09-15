@@ -24,9 +24,9 @@ console.log ("El documento está cargado");
     }
 
 //Escucha la accion del boton
-    $("#btn-form1").click(function () {
+    $("#btn-form").click(function () {
         event.preventDefault();//Previene que se recargue la pagina
-        var comprobacion = ($("#Form_eje1").val());//Toma el valor del formulario
+        var comprobacion = ($("#numero").val());//Toma el valor del formulario
         
         funComprobacion(comprobacion);
     });

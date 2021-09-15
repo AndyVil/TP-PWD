@@ -7,11 +7,11 @@ $(document).ready(function(){//Esto es cuando carga el documento, entonces ya es
 console.log ("El documento está cargado");
 
     //Escucha la accion del boton
-    $("#btn-form2").click(function () {
+    $("#btn-form").click(function () {
         event.preventDefault();//Previene que se recargue la pagina
  
         var comprobacion = [];	//Serializamos todos los campos del form dinámicamente
-        comprobacion = $("#Form_eje2").serializeArray();//Convierte todos los datos del formulario en array
+        comprobacion = $('#Ejer2').serializeArray();//Convierte todos los datos del formulario en array
 	    //Por defecto la validación es 1
         var valido = 1;
 
@@ -27,7 +27,7 @@ console.log ("El documento está cargado");
             $("p.aviso").remove();//Evita que se repita el append
             $("form").append("<p class=aviso>No puede haber numeros menores a 0, ni otro tipo de caracter que no sea numerico</p>");
         } else {//Si la validación es 1  enviamos el form
-            var formulario = $("#Form_eje2");
+            var formulario = $('#Ejer2');
             formulario.attr("action", 'action.php');//Si es correcto enviar el formulario manipulando el action
             formulario.submit();//Envia el formulario
         }
