@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../JS/jquery-3.6.0.min.js"></script>
     <title></title>
     <!-- Como agrego el titulo mediante php? Titulo que esta como variable en index -->
 </head>

@@ -1,5 +1,5 @@
 <?php
-echo "<title><?= 'Ejercicio_2' ?></title>";
+echo "<title>Ejercicio_2</title>";
 require_once("../Structure/header.php");
 ?>
 

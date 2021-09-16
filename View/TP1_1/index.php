@@ -1,5 +1,5 @@
 <?php
-echo "<title><?= 'Ejercicio_1' ?></title>";
+echo "<title>Ejercicio_1</title>";
 require_once("../Structure/header.php");
 ?>
 
@@ -13,16 +13,6 @@ require_once("../Structure/header.php");
         <!-- <button type="submit" id="btn-form1" name="btn-form1">Enviar</button> -->
         <input type="submit" id="btn-form" name="btn-form" value="Enviar">
     </form>
-
-
-
-
-
-
-
-
-
-
 
 </div>
 
