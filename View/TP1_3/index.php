@@ -3,7 +3,7 @@ echo "<title>Ejercicio_3</title>";
 require_once("../Structure/header.php");
 ?>
 
-<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
+<div id="contenido" style="height: 82%; min-height:fit-content; width: 89.8%; border: 2px solid red; border-radius: 5px;margin-left:10%;">
     <h1> Este es el cuerpo </h1>
 
     <form action="" method="POST" name="Ejer3" id="Ejer3">

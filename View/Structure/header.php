@@ -19,7 +19,7 @@
     require_once("../../config.php");
     ?>
 
-    <div style="height: 80px; width: 100%; border: 2px solid red; border-radius: 5px;">
+    <div style="height: 9%; width: 99.8%; border: 2px solid red; border-radius: 5px;">
         <h1>Este es la cabecera</h1>
     </div>
 

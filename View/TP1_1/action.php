@@ -2,7 +2,7 @@
 require_once("../Structure/header.php");
 ?>
 
-<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;">
+<div id="contenido" style="height: 82%; min-height:fit-content; width: 89.8%; border: 2px solid red; border-radius: 5px;margin-left:10%;">
     <?php
     $datos = data_submited(); //del archivo funciones
     $objeto = new TP1_Control1();
