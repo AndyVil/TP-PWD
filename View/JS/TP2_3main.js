@@ -6,19 +6,21 @@ $(document).ready(function () {
 	//Escucha la accion del boton
 	$('#btn-form').click(function (a) {
 		a.preventDefault(); //Previene que se recargue la pagina
-		
+
+
 		//Valores de formulario
 		const user = $('#usr').val();
 		const pass = $('#pss').val();
 
+
 		//No tener campos vacios, 8 caracteres de pss, no igual usr a pss, y contener letras y numeros en la pss
-		const empyUser = (user == '');
-		const empyPass = (pass == '');
-		const equal = (user == pass);
-		const newEmpy = (!empyPass && !empyUser);
-		const reg = (/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/); //Mínimo ocho caracteres, al menos una letra y un número
+		const empyUser = user == '';
+		const empyPass = pass == '';
+		const equal = user == pass;
+		const newEmpy = !empyPass && !empyUser;
+		const reg = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/; //Mínimo ocho caracteres, al menos una letra y un número
 		const contains = reg.test(pass);
-		const notEmpy = (!empyPass && !empyUser);
+		const notEmpy = !empyPass && !empyUser;
 		//console.log (contains);
 
 
@@ -52,8 +54,9 @@ $(document).ready(function () {
 		console.log('Final de la comprobacion');
 	});
 
-    //nuevo evento para cada vez que pulsamos una tecla hasta tener 8 caracteres
-	$('#pss').keypress(function(){
+	
+	//Nuevo evento para cada vez que pulsamos una tecla hasta tener 8 caracteres
+	$('#pss').keypress(function () {
 		let str = $('#pss').val();
 		let msj = '<p class=aviso>La contraseña debe tener mas de 8 caracteres</p>';
 		//console.log('Funciona, valor de str: '+str);
@@ -63,6 +66,5 @@ $(document).ready(function () {
 		} else {
 			$('p.aviso').remove();
 		}
-
 	});
 });

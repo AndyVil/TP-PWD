@@ -7,7 +7,7 @@ require_once("../Structure/header.php");
     //Verificar edad mayor o menor de 18
         $datos = data_submited();
     //Objeto
-        $objeto = new Control_eje4();
+        $objeto = new TP1_Control5();
         $verificacion = $objeto->Verificar_edad($datos);
         echo $verificacion;
 
