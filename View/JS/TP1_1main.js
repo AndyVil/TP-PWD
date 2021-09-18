@@ -23,7 +23,7 @@ console.log ("El documento está cargado");
         }
     }
 
-//Escucha la accion del boton
+    //Escucha la accion del boton
     $("#btn-form").click(function () {
         event.preventDefault();//Previene que se recargue la pagina
         const comprobacion = ($("#numero").val());//Toma el valor del formulario

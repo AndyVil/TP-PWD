@@ -52,7 +52,7 @@ $(document).ready(function () {
 	});
 
     //nuevo evento para cada vez que pulsamos una tecla hasta tener 8 caracteres
-	$('#pss').keyup(function(){
+	$('#pss').keypress(function(){
 		let str = $('#pss').val();
 		let msj = '<p class=aviso>La contraseña debe tener mas de 8 caracteres</p>';
 		//console.log('Funciona, valor de str: '+str);
