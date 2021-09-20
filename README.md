@@ -15,7 +15,7 @@ TP2_3 Usuarios y contraseñas: [
     Contraseña: Como_estas_030
 ]
 
-##Probablemente hubiera podido meter todos los JS en uno solo, pero no se si esta bueno de esa manera, creando funciones con nombres correspondientes a los
+## Probablemente hubiera podido meter todos los JS en uno solo, pero no se si esta bueno de esa manera, creando funciones con nombres correspondientes a los
 ejercicios, y tambien, reutilizando algunas 
 
-###Falta comentar los controller
+### Falta comentar los controller
