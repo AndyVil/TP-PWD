@@ -1,13 +1,24 @@
 <?php
 echo "<title>Ejercicio_7</title>";
 require_once("../Structure/header.php");
+//HEADER============================================================================
 ?>
 
-<div id="contenido" style="height: 82%; min-height:fit-content; width: 89.8%; border: 2px solid red; border-radius: 5px;margin-left:10%;">
+
+<!--BODY============================================================================-->
+<div id="contenido" style="height: 82%;
+    min-height:fit-content;
+    width: 89.8%;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left:10%;">
+
+
     <h1> Este es el cuerpo </h1>
 
-    <form action="" method="POST" name="Ejer7" id="Ejer7">
 
+    <!-- Formulario -->
+    <form action="" method="POST" name="Ejer7" id="Ejer7">
         <input type='text' id='numero1' name='numero1' placeholder='EJ: 2'>
         <label for='numero1'></label>
         <br>
@@ -22,13 +33,19 @@ require_once("../Structure/header.php");
         <label for='numero2'></label>
         <br>
         <br>
+        <!-- Submit -->
         <input type="submit" name="btn-form" id="btn-form" value="resultado">
     </form>
 
+
 </div>
 
+
+<!-- Llamada al script JS -->
 <script src="../JS/TP1_7main.js"></script>
 
+
 <?php
+//FOOTER============================================================================
 require_once("../Structure/footer.php");
 ?>

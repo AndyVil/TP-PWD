@@ -15,18 +15,18 @@ require_once("../Structure/header.php");
 
 
     <?php
-    $datos = data_submited(); //Del archivo funciones
-    $objeto = new TP1_Control1();
+        $datos = data_submited(); //Del archivo funciones
+        $objeto = new TP1_Control1();
 
 
-    //Obtenemos la respuesta
-    $respuesta = $objeto->Ver_Informacion($datos);
-    echo $respuesta;
+        //Obtenemos la respuesta
+        $respuesta = $objeto->Ver_Informacion($datos);
+        echo $respuesta;
 
 
-    //Vovler a la pagina anterior
-    echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP1_1/index.php'>
-        Volver a la pagina anterior</a>";
+        //Vovler a la pagina anterior
+        echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP1_1/index.php'>
+            Volver a la pagina anterior</a>";
     ?>
 
 

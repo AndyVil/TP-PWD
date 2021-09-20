@@ -1,13 +1,23 @@
 <?php
 echo "<title>Ejercicio_8</title>";
 require_once("../Structure/header.php");
+//HEADER============================================================================
 ?>
 
-<div id="contenido" style="height: 82%; min-height:fit-content; width: 89.8%; border: 2px solid red; border-radius: 5px;margin-left:10%;">
-    <h1> Este es el cuerpo </h1>
 
+<!--BODY============================================================================-->
+<div id="contenido" style="height: 82%; 
+    min-height:fit-content; 
+    width: 89.8%; 
+    border: 2px solid red; 
+    border-radius: 5px;
+    margin-left:10%;">
+
+
+    <H1> Este es el cuerpo </H1>
     <H1>Cine Cinemas</H1>
 
+    
     <!-- Formulario -->
     <form action="" method="GET" name="Ejer8" id="Ejer8">
         <label for="edad">Ingrese la edad: </label>
@@ -18,14 +28,20 @@ require_once("../Structure/header.php");
         <input type="checkbox" id="estudiante" name="estudiante" value="1">
         <br>
         <br>
+        <!-- Submit y reset -->
         <input type="submit" value="Enviar" name="btn-form" id="btn-form">
         <input type="reset" value="Borrar Formulario" name="reset" id="resetear">
     </form>
 
+
 </div>
 
+
+<!-- Llamada al script JS -->
 <script src="../JS/TP1_8main.js"></script>
 
+
 <?php
+//FOOTER=================================================================================
 require_once("../Structure/footer.php");
 ?>
