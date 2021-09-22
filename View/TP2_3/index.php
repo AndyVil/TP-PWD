@@ -17,21 +17,36 @@ require_once("../Structure/header.php");
     <h1> Este es el cuerpo </h1>
     <H1>Login</H1>
 
-
-    <!-- Formulario -->
-    <form action="action.php" method="POST" name="TP2login" id="TP2login">
-        <label for="usr">Ingrese su Usuario: </label>
-        <input type="text" id="usr" name="usr" placeholder="Ingrese su usuario">
-        <br>
-        <br>
-        <label for='pss'>Ingrese su contraseña: </label>
-        <input type="password" name="pss" id="pss" placeholder="Ingrese su contraseña">
-        <br>
-        <br>
-        <!-- Submit y reset -->
-        <input type="submit" value="Enviar" name="btn-form" id="btn-form">
-        <input type="reset" value="Borrar datos" name="reset" id="resetear">
-    </form>
+    
+    <div>
+        <div class="container">
+            <div class="row" name="divTest">
+                <div class="row justify-content-center">
+                    <div class="p-3 mb-2 bg-secondary">
+                        <div class="p-3 mb-2 bg-light rounded">
+                            <br>
+                            <p class="h5 text-center">Member Login</p>
+                            <br>
+                            <!-- Formulario -->
+                            <form action="action.php" method="POST" name="TP2login" id="TP2login">
+                                <!-- <label for="usr">Ingrese su Usuario: </label> -->
+                                <input type="text" id="usr" name="usr" placeholder="Ingrese su usuario">
+                                <br>
+                                <br>
+                                <!-- <label for='pss'>Ingrese su contraseña: </label> -->
+                                <input type="password" name="pss" id="pss" placeholder="Ingrese su contraseña">
+                                <br>
+                                <br>
+                                <!-- Submit y reset -->
+                                <input type="submit" value="Login" name="btn-form" id="btn-form" class="btn btn-success btn-lg btn-block">
+                                <!-- <input type="reset" value="Borrar datos" name="reset" id="resetear"> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </div>

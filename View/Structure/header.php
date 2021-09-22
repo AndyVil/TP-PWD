@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Proyecto progresivo de la materia Programacion Web Dinamica
  * @author Villarruel Lucas Andres - FAI1707 - Universidad del Nacional Comahue
@@ -13,6 +14,7 @@
 <html lang="en">
 
 <!--HEAD-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,11 +23,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./../../Tools/jquery-3.6.0.min.js"></script>
 
+    <link rel="stylesheet" href="../../Tools/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
     <title></title>
 </head>
 
 
 <!--BODY==================================================================================-->
+
 <body>
 
     <!--Es el inicio de body y la cabecera-->

@@ -3,6 +3,11 @@
     <h1>Este es el Pie</h1>
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="./../../Tools/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
 </body>
 <!--FINAL HTML==================================================================-->
+
 </html>
