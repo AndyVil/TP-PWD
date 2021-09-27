@@ -1,5 +1,5 @@
 <?php
-$title = "TP1_3 action";
+$title = "TP3_1 action";
 echo "<title>" . $title . "</title>";
 require_once("../Structure/header.php");
 //HEADER============================================================================
@@ -17,16 +17,16 @@ require_once("../Structure/header.php");
 
     <?php
         $datos = data_submited(); //Del archivo funciones
-        $objeto = new TP1_Control3();
+        $objeto = new TP3_Control1();
 
 
         //Obtenemos la respuesta
-        $respuesta = $objeto->Ver_Informacion($datos);
+        $respuesta = $->($);
         echo $respuesta;
 
 
         //Volver a la pagina anterior
-        echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP1_3/index.php'>
+        echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP3_1/index.php'>
             Volver a la pagina anterior</a>";
     ?>
 

@@ -1,5 +1,6 @@
 <?php
-echo "<title>TP2-Ejercicio_4</title>";
+$title = "TP2_4 index";
+echo "<title>" . $title . "</title>";
 require_once("../Structure/header.php");
 //HEADER============================================================================
 ?>
@@ -18,7 +19,7 @@ require_once("../Structure/header.php");
     <h1>Cinem@s</h1>
 
     <!-- Formulario -->
-    <form action="action.php" method="GET" name="TP2_4" id="TP2_4">
+    <form action="" method="GET" name="TP2_4" id="TP2_4">
 
         <label for="title">Título</label>
         <input type="text" name="title" id="title" placeholder="Título de pelicula">

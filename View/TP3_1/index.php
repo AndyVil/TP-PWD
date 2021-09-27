@@ -1,5 +1,5 @@
 <?php
-$title = "TP1_3 action";
+$title = "TP3_1 index";
 echo "<title>" . $title . "</title>";
 require_once("../Structure/header.php");
 //HEADER============================================================================
@@ -15,23 +15,27 @@ require_once("../Structure/header.php");
     margin-left:10%;">
 
 
-    <?php
-        $datos = data_submited(); //Del archivo funciones
-        $objeto = new TP1_Control3();
+    <h1> Este es el cuerpo </h1>
+    <h1> Subir archivos </h1>
+
+    <!-- Formulario -->
+    <form action="" method="GET" name="TP3_1" id="TP3_1">
 
 
-        //Obtenemos la respuesta
-        $respuesta = $objeto->Ver_Informacion($datos);
-        echo $respuesta;
+        <!-- Submit y reset -->
+        <br>
+        <input type="submit" value="Cargar" name="btn-form" id="btn-form">
+        <input type="reset" value="Borrar" name="btn-del" id="btn-del">
 
+    </form>
 
-        //Volver a la pagina anterior
-        echo "<br><br><a href='http://localhost/pwd_proyectos/TP-PWD/View/TP1_3/index.php'>
-            Volver a la pagina anterior</a>";
-    ?>
 
 
 </div>
+
+
+<!-- Llamada al script JS -->
+<script src="../JS/TP3_1main.js"></script>
 
 
 <?php

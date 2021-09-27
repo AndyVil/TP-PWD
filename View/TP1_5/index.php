@@ -1,5 +1,6 @@
 <?php
-echo "<title>Ejercicio_5</title>";
+$title = "TP1_5 index";
+echo "<title>" . $title . "</title>";
 require_once("../Structure/header.php");
 //HEADER============================================================================
 ?>
