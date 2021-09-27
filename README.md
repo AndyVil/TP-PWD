@@ -18,9 +18,9 @@ TP2_3 Usuarios y contraseñas: [
 
 ## Probablemente hubiera podido meter todos los JS en uno solo, pero no se si esta bueno de esa manera, creando funciones con nombres correspondientes a los ejercicios, y tambien, reutilizando algunas 
 
-### Falta comentar los controller
 
-Agregar una funcion que compruebe que los horarios, y que los de salida no sean menores a los de entrada 
+Agregar una funcion que compruebe que los horarios, y que los de salida no sean menores a los de entrada, ademas que no muestre null sino 0 en donde no haya datos, diciendo en caso de que no se coloque nada en ninguno que
+la persona no cursa ningun dia  
 
 
 posiblemente me falta agregar verificaciones en el control aun, tengo en la vista, y algunas en el control

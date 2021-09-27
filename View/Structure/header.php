@@ -21,9 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./../../Tools/jquery-3.6.0.min.js"></script>
+    <script src="./../Resources/jquery-3.6.0.min.js"></script>
 
-    <link rel="stylesheet" href="../../Tools/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../Resources/bootstrap-4.0.0-dist/css/bootstrap.min.css">
 
     <title></title>
 </head>
