@@ -3,26 +3,26 @@
         public function Ver_Informacion($datos){
             $arr_horarios = [];
             $arr_horarios = [
-                "lunes_entrada" => $_GET['lunes'],
-                "lunes_salida" => $_GET['lunes2'],
-                "martes_entrada" => $_GET['martes'],
-                "martes_salida" => $_GET['martes2'],
-                "miercoles_entrada" => $_GET['miercoles'],
-                "miercoles_salida" => $_GET['miercoles2'],
-                "jueves_entrada" => $_GET['jueves'],
-                "jueves_salida" => $_GET['jueves2'],
-                "viernes_entrada" => $_GET['viernes'],
-                "viernes_salida" => $_GET['viernes2'],
-                "sabado_entrada" => $_GET['sabado'],
-                "sabado_salida" => $_GET['sabado2'],
-                "domingo_entrada" => $_GET['domingo'],
-                "domingo_salida" => $_GET['domingo2'],
+                "lunes_entrada" => $datos['lunes'],
+                "lunes_salida" => $datos['lunes2'],
+                "martes_entrada" => $datos['martes'],
+                "martes_salida" => $datos['martes2'],
+                "miercoles_entrada" => $datos['miercoles'],
+                "miercoles_salida" => $datos['miercoles2'],
+                "jueves_entrada" => $datos['jueves'],
+                "jueves_salida" => $datos['jueves2'],
+                "viernes_entrada" => $datos['viernes'],
+                "viernes_salida" => $datos['viernes2'],
+                "sabado_entrada" => $datos['sabado'],
+                "sabado_salida" => $datos['sabado2'],
+                "domingo_entrada" => $datos['domingo'],
+                "domingo_salida" => $datos['domingo2'],
             ];
 
             $horas_totales_suma = 0; //No voy a ser especifico con el tema de horarios luego de las 23 etc...
             $horas_totales_resta = 0;
 
-            $contador = 0; //bandera
+            $contador = 0; //Bandera
             foreach ($arr_horarios as $horario => $valor) {
                 $contador++;
                 echo $horario . ": " . $valor . "<br>";

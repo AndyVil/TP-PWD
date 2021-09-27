@@ -14,27 +14,27 @@ $(document).ready(function () {
 
 
 		//No tener campos vacios, 8 caracteres de pss, no igual usr a pss, y contener letras y numeros en la pss
-		const empyUser = user == '';
-		const empyPass = pass == '';
+		const emptyUser = user == '';
+		const emptyPass = pass == '';
 		const equal = user == pass;
-		const newEmpy = !empyPass && !empyUser;
+		const newEmpty = !empyPass && !empyUser;
 		const reg = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/; //Mínimo ocho caracteres, al menos una letra y un número
 		const contains = reg.test(pass);
-		const notEmpy = !empyPass && !empyUser;
+		const notEmpty = !empyPass && !empyUser;
 		//console.log (contains);
 
 
 		let valido = 1;
 		let msj = '';
-		if (empyPass || empyUser) {
+		if (emptyPass || emptyUser) {
 			msj = '<p class=aviso>Campos incompletos</p>';
 			valido = 0;
 		}
-		if (equal && newEmpy) {
+		if (equal && newEmpty) {
 			msj = '<p class=aviso>El usuario y contraseña no pueden ser iguales</p>';
 			valido = 0;
 		}
-		if (!contains && notEmpy) {
+		if (!contains && notEmpty) {
 			msj =
 				'<p class=aviso>La contraseña debe contener al menos una letra y un numero, ademas de ser de mas de 8 caracteres</p>';
 			valido = 0;

@@ -1,5 +1,6 @@
 <?php
     class TP1_Control3 {
+        //Impresion simple en pantalla de los datos
         public function Ver_Informacion($datos){
             $nombre = $datos['nombre'];
             $apellido = $datos['apellido'];

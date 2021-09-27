@@ -8,18 +8,22 @@
             $estudios = $datos['estudios'];
             $genero = $datos['gender'];
 
+            //Llamamos al metodo de verificacion de estudios
             $estudiosVerif = $this->Estudios($estudios);
 
+            //Impresion simple de los datos en pantalla
             $respuesta = "Hola, yo soy " . $nombre . " " . $apellido . ", tengo " . $edad . " años " . "y vivo en " . $direccion. "<br>".
                 "Informacion adicional: <br>" . "sexo: " . $genero . "<br>" . "Nivel de estudios: " . $estudiosVerif."<br><br>";
             return $respuesta;
         }
 
+        //Meodo solicitado en el action2.php para calcular si es mayor de edad
         public function Ver_edad($datos){
             $edad = $datos['edad'];
             return $edad;
         }
 
+        //Verificacion de mayoria de edad
         public function Verificar_edad($datos){
             $edad = $datos['edad'];
             $mayor = ($edad >= 18);
@@ -31,6 +35,7 @@
             return $respuesta;
         }
 
+        //Verifica si tiene estudios
         public function Estudios($valor){
             if($valor == 1){
                 $nuevoValor = 'No tiene estudios';

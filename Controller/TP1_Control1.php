@@ -1,5 +1,6 @@
 <?php
     class TP1_Control1 {
+        //Verifica que el numero sea ingresado y que tipo
         public function Ver_Informacion($datos){
             $numero = $datos['numero'];
             if ($numero > 0) {
