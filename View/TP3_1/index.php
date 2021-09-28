@@ -16,16 +16,27 @@ require_once("../Structure/header.php");
 
 
     <h1> Este es el cuerpo </h1>
-    <h1> Subir archivos </h1>
+    <h3> Subir archivos </h3>
 
     <!-- Formulario -->
-    <form action="" method="GET" name="TP3_1" id="TP3_1">
+    <form action="" method="POST" name="TP3_1" id="TP3_1" enctype="multipart/formdata">
 
+        <!-- Input de archivos -->
+        <!-- PDF y Doc -->
+        <label for="file_doc_pdf">Ingrese archivo .DOC o .PDF</label>
+        <br>
+        <input type="file" id="file_doc_pdf" name="file_doc_pdf">
+        <br>
+        <br>
+        <!-- Archivos txt -->
+        <label for="file_doc_pdf">Ingrese archivo .TXT</label>
+        <br>
+        <input type="file" id="file_txt" name="file_txt">
 
         <!-- Submit y reset -->
         <br>
+        <br>
         <input type="submit" value="Cargar" name="btn-form" id="btn-form">
-        <input type="reset" value="Borrar" name="btn-del" id="btn-del">
 
     </form>
 

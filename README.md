@@ -25,7 +25,7 @@ la persona no cursa ningun dia
 
 posiblemente me falta agregar verificaciones en el control aun, tengo en la vista, y algunas en el control
 
-
+EN el tp1 no deberia poder ingresarse nombre de personas con numeros, ni fechas de nacimiento mayores a el año actual
 
 
 
@@ -45,3 +45,7 @@ Ejercicio 3 – Agregue al formulario creado en el ejercicio 10 del práctico 2 
 permita adjuntar la imagen de película que se está cargando. Cuando se envía el formulario se
 deberá guardar la imagen y luego mostrarla junto con la información cargada en el formulario.
 (OBS: Recuerde chequear los permisos sobre el directorio donde se almacenarán los archivos)
+
+
+
+confirmar validaciones con html, js, y en el servidor, porque si modifican el html me pueden meter cualqueir tipo de dato
